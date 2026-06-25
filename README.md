@@ -38,6 +38,27 @@ unhinged-architect/
 
 ## Install (Claude Code)
 
+### Option A — npm (recommended)
+
+Install the package, then run the bundled installer. It drops the skill into
+`~/.claude/skills/` and the Junior subagent into `~/.claude/agents/` for you:
+
+```bash
+npm install -g unhinged-architect
+unhinged-architect-install
+```
+
+Prefer not to install globally? Run it one-off with npx:
+
+```bash
+npx -p unhinged-architect unhinged-architect-install
+```
+
+Then restart Claude Code (or open a fresh session) and say
+**"I've got an app idea, let's start"** — the skill triggers and the Architect takes over.
+
+### Option B — manual copy
+
 From your project root:
 
 ```bash

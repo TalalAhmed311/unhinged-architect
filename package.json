@@ -1,0 +1,34 @@
+{
+  "name": "unhinged-architect",
+  "version": "1.0.0",
+  "description": "A roast-driven, build-from-scratch mentorship skill for Claude Code. The Architect drags your idea through five phases to running code.",
+  "keywords": [
+    "claude",
+    "claude-code",
+    "skill",
+    "agent",
+    "architecture",
+    "mentorship"
+  ],
+  "author": "Talal Ahmed",
+  "license": "MIT",
+  "homepage": "https://github.com/TalalAhmed311/unhinged-architect",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TalalAhmed311/unhinged-architect.git"
+  },
+  "bin": {
+    "unhinged-architect-install": "install.js"
+  },
+  "files": [
+    "SKILL.md",
+    "README.md",
+    "references/",
+    "assets/",
+    "agents/",
+    "install.js"
+  ],
+  "engines": {
+    "node": ">=16"
+  }
+}
